@@ -1,0 +1,15 @@
+[package]
+name = "dexter-client-anchor"
+version = { workspace = true }
+edition = { workspace = true }
+authors = { workspace = true }
+license = { workspace = true }
+
+[dependencies]
+bytemuck = { workspace = true }
+
+solana-sdk = { workspace = true }
+
+anchor-lang = { workspace = true }
+
+dexter-client-api = { workspace = true }

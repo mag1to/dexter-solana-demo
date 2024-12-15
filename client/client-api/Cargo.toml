@@ -1,0 +1,32 @@
+[package]
+name = "dexter-client-api"
+version = { workspace = true }
+edition = { workspace = true }
+authors = { workspace = true }
+license = { workspace = true }
+
+[dependencies]
+base64 = { workspace = true }
+bincode = { workspace = true }
+once_cell = { workspace = true }
+reqwest = { workspace = true }
+serde = { workspace = true, features = ["derive"] }
+serde_json = { workspace = true }
+tarpc = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+
+solana-accounts-db = { workspace = true }
+solana-account-decoder = { workspace = true }
+solana-banks-client = { workspace = true }
+solana-banks-interface = { workspace = true }
+solana-program-runtime = { workspace = true }
+solana-rpc-client = { workspace = true, features = ["spinner"] }
+solana-rpc-client-api = { workspace = true }
+solana-runtime = { workspace = true }
+solana-sdk = { workspace = true }
+solana-transaction-status = { workspace = true }
+
+anchor-lang = { workspace = true }
+
+dexter-solana-banks-client-blocking = { workspace = true }

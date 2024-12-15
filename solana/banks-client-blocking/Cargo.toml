@@ -1,0 +1,15 @@
+[package]
+name = "dexter-solana-banks-client-blocking"
+version = { workspace = true }
+edition = { workspace = true }
+authors = { workspace = true }
+license = { workspace = true }
+
+[dependencies]
+borsh = { workspace = true }
+tarpc = { workspace = true, features = ["full"] }
+tokio = { workspace = true }
+
+solana-banks-client = { workspace = true }
+solana-banks-interface = { workspace = true }
+solana-sdk = { workspace = true }

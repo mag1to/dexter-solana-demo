@@ -1,0 +1,16 @@
+[package]
+name = "dexter-client-spl"
+version = { workspace = true }
+edition = { workspace = true }
+authors = { workspace = true }
+license = { workspace = true }
+
+[dependencies]
+solana-sdk = { workspace = true }
+
+anchor-lang = { workspace = true }
+anchor-spl = { workspace = true }
+
+dexter-client-anchor = { workspace = true }
+dexter-client-api = { workspace = true }
+dexter-client-sys = { workspace = true }

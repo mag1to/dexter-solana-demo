@@ -1,0 +1,12 @@
+[package]
+name = "dexter-client"
+version = { workspace = true }
+edition = { workspace = true }
+authors = { workspace = true }
+license = { workspace = true }
+
+[dependencies]
+dexter-client-anchor = { workspace = true }
+dexter-client-api = { workspace = true }
+dexter-client-spl = { workspace = true }
+dexter-client-sys = { workspace = true }
